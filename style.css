@@ -11,6 +11,7 @@ body {
 
 .no-scroll {
     overflow: none;
+    overflow: hidden;
 }
 
 *,
@@ -542,7 +543,12 @@ a + button {
     .text__center {
         margin-left: 6rem;
     }
+    .port__image {
+        display: block;
+        width: 384px;
+    }
 }
+
 @media (max-width: 320px) {
     .text__center {
         margin-left: 4.5rem;
@@ -1185,6 +1191,17 @@ a + button {
         top: 35rem;
         right: 1.6rem;
         z-index: 1;
+    }
+}
+
+@media (width: 414px) {
+    .modal__content {
+        padding: 3.3rem 1.6rem  11rem;
+    }
+    .modal__img {
+       width: 270px;
+       top: 33rem;
+       right: 3.6rem;
     }
 }
 
